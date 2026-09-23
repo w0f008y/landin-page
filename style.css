@@ -1,0 +1,34 @@
+/* tambien se puede importar para no llenarimpportar letras de google */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* definri variables de color */
+
+:root {
+    --color-texto: #1c2430;
+    --paper: #eef1f5; 
+    /* tipos de letra */
+    --font-body: "Inter" , san-serfi;
+    --font-display: "Space Grotesk" , san-serfi;
+}
+
+* , *::before, *::after {
+    box-sizing: borde-box;
+    margin: 0;
+    pading: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var-texto;
+    font-family: var(--font-body);
+    background-color: rgb(231, 217, 198); 
+}
+.hero {
+    pading: 80px 20px 64;
+    color:#eef1f5
+    background-color: rgb(red rgb(160, 172, 160) blue / alpha);
+}
